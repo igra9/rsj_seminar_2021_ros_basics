@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>rsj_tutorial_2021_ros_basics</name>
+  <name>rsj_seminar_2021_ros_basics</name>
   <version>0.0.0</version>
-  <description>The rsj_tutorial_2021_ros_basics package</description>
+  <description>The rsj_seminar_2021_ros_basics package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->

@@ -1,9 +1,9 @@
 #include <ros/ros.h>
-#include <rsj_tutorial_2021_ros_basics/Text.h>
+#include <rsj_seminar_2021_ros_basics/Text.h>
 
 #include <iostream>
 
-void callback(const rsj_tutorial_2021_ros_basics::Text::ConstPtr &msg) {
+void callback(const rsj_seminar_2021_ros_basics::Text::ConstPtr &msg) {
   std::cout << msg->message << " " << msg->date << '\n';
 }
 

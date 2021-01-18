@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(rsj_tutorial_2021_ros_basics)
+project(rsj_seminar_2021_ros_basics)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -95,7 +95,7 @@ generate_messages(
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES rsj_tutorial_2021_ros_basics
+#  LIBRARIES rsj_seminar_2021_ros_basics
   CATKIN_DEPENDS message_generation roscpp
   DEPENDS message_runtime
 )
@@ -112,7 +112,7 @@ include_directories(
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/rsj_tutorial_2021_ros_basics.cpp
+#   src/${PROJECT_NAME}/rsj_seminar_2021_ros_basics.cpp
 # )
 
 ## Add cmake target dependencies of the library
@@ -189,7 +189,7 @@ install(TARGETS ${PROJECT_NAME}_publish ${PROJECT_NAME}_show
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_rsj_tutorial_2021_ros_basics.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_rsj_seminar_2021_ros_basics.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()

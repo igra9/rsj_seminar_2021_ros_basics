@@ -1,8 +1,8 @@
 <launch>
-  <node name="publisher" pkg="rsj_tutorial_2021_ros_basics" type="publish">
+  <node name="publisher" pkg="rsj_seminar_2021_ros_basics" type="publish">
     <param name="message" value="Test seminar"/>
     <param name="date" value="January 22"/>
   </node>
 
-  <node name="show" pkg="rsj_tutorial_2021_ros_basics" type="show" output="screen"/>
+  <node name="show" pkg="rsj_seminar_2021_ros_basics" type="show" output="screen"/>
 </launch>
